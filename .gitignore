@@ -33,6 +33,13 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# runtime form submissions
+/data/app/submissions.json
+
+# large WordPress WXR exports (keep locally under data/wordpress/exports)
+/data/wordpress/exports/*.xml
+/data/wordpress/*.raw.json
+
 # vercel
 .vercel
 
